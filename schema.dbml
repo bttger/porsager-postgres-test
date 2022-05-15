@@ -1,0 +1,7 @@
+Table demo {
+  id int [pk, increment]
+  name varchar(100)
+  datetime timestamp
+  code integer
+  isValid boolean
+}
