@@ -1,10 +1,10 @@
-import postgres from "postgres";
+import postgres from 'postgres';
 
 const sql = postgres({
-  database: "ftj",
-  host: "localhost",
-  password: "safe",
-  user: "postgres",
+  database: 'ftj',
+  host: 'localhost',
+  password: 'safe',
+  user: 'postgres',
 });
 
 await sql`DROP TABLE IF EXISTS demo`;
