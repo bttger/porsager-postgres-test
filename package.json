@@ -12,5 +12,8 @@
   "dependencies": {
     "@dbml/core": "^2.4.1",
     "postgres": "^3.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0"
   }
 }
